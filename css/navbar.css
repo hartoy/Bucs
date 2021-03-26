@@ -1,0 +1,46 @@
+h2{
+  color: white;
+}
+nav{
+    background-color: #322F2B;
+    height: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    justify-content: flex-end;
+    z-index:21;
+}
+
+.nav-item a{
+  color: white;
+}
+.nav-item img{
+  height: 40px;
+  margin: 15px;
+}
+form{
+   list-style-type: none;
+}
+
+#denav{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar-toggler{
+width: 47px;
+height: 34px;
+background-color:#A71930 !important;
+}
+.navbar-collapse{
+  background-color: #322F2B;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+@media(max-width:414px){
+  .nav-item img{
+    height: 40px;
+    margin-left: 48px;
+  }
+}

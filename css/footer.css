@@ -1,0 +1,86 @@
+footer{
+  background-color: #3A332D;
+  height: 200px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.barco img{
+  width: 270px;
+  height: 160px;
+  margin-left: 45px;
+}
+.barco a{
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  padding-left: 550px;
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+  margin-right: 70px;
+  margin-top: 60px;
+}
+@media(max-width:375px) and (min-width:319px){
+  footer{
+    height: 280px;
+  }
+  .todaslasredes{
+    margin-left: 55px;
+  }
+  .barco{
+    padding-left: 10px;
+  }
+  .barco img{
+    width: 245px;
+    height: 155px;
+    margin-left: 30px;
+  }
+  .barco p{
+    font-size: 13px;
+    margin-bottom: 35px;
+  }
+  .logo{
+    padding-left: 5px;
+  }
+  .logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 21px;
+    margin-top: 1px;
+  }
+  }
+@media(width:320px){
+  .barco p {
+    font-size: 11px;
+    margin-bottom: 38px;
+}
+.barco img {
+    width: 245px;
+    height: 153px;
+    margin-left: 10px;
+}
+.todaslasredes {
+    margin-left: 35px;
+}
+}
+@media(max-width:414px) and (min-width:411px){
+  footer{
+    height: 300px;
+  }
+  .logo {
+    padding-left: 35px;
+}
+  .logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 21px;
+    margin-top: 1px;
+  }
+  .barco p {
+    margin-bottom: 30px;
+}
+}

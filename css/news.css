@@ -1,0 +1,162 @@
+body{
+  margin: auto;
+  color: black;
+  background-color:#EEEEEE !important;
+}
+
+
+
+.card1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: #322F2B;
+    height: 600px;
+}
+.card1 img{
+  width: 100%;
+  height: 400px;
+}
+
+.bucs img{
+  width: 100%;
+  height: 100px;
+}
+
+@media(max-width:900px){
+  .bucs img{
+    display:none;
+  }
+  }
+
+.card3{
+background-image: url("https://static.clubs.nfl.com/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/buccaneers/eondp6hx2avs2mk4isgt.jpg");
+color:white;
+height: 300px;
+margin-bottom: 10px;
+}
+@media(max-width:375px) and (min-width:320px){
+  .card3{
+  background-image: url("https://static.clubs.nfl.com/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/buccaneers/eondp6hx2avs2mk4isgt.jpg");
+  color:white;
+  background-position-y: 0%;
+  background-position-x: 18%;
+  }
+  }
+.card3 img{
+  width: 100%;
+  height: 100px;
+}
+
+#c3{
+ background: rgba(0, 0, 0, 0.5);
+ height: 60px;
+}
+#h5c3{
+ font-size: 18px;
+ margin: -10px;
+ text-align: center;
+}
+#c3date{
+ font-size: 14px;
+ margin-top: 5px;
+}
+
+@media(max-width:414px){
+  #h5c3{
+   font-size: 15px;
+  }
+  #c3date{
+   display: none;
+  }
+  }
+
+
+.card2 a {
+  text-decoration: none;
+  color: white !important;
+}
+.card2{
+  background-color: #322F2B;
+  color:white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.card-title{
+  margin: 10px;
+}
+.card-text{
+ margin-left: 10px;
+}
+
+#hotnewslink{
+ color: black !important;
+ font-size: 35px;
+ font-family: 'Play', sans-serif;
+}
+
+#ytlink{
+width: 45px;
+height: 45px;
+}
+
+ul{
+  list-style-type: none;
+}
+@media(max-width:414px){
+  .card1 img{
+    height: 240px;
+  }
+  .card2{
+  margin-bottom: 30px;
+  }
+
+  ul{
+    width: 114%;
+    margin-left: -40px;
+  }
+  #ytlink{
+  width: 35px;
+  height: 35px;
+  }
+  #hotnewslink{
+   color: black !important;
+   font-size: 25px;
+   font-family: 'Play', sans-serif;
+   margin-bottom: 15px;
+   text-align: center;
+  }
+  #ytlink{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  }
+  .card3{
+  margin-top: 20px;
+  margin-right: 15px;
+  }
+}
+
+/*SEPARADOR----------------------------------------------------------*/
+.separador{
+  margin-top:35px;
+  margin-bottom:10px;
+  font-family: 'Play', sans-serif;
+}
+.separador h2{
+  border-bottom: 2px solid #151515;
+  margin-bottom: -10px;
+}
+.titulo{
+  color: black;
+  margin:1px;
+}
+hr{
+  margin-top: 1px;
+}
+@media(max-width:414px){
+  .separador{
+    text-align: center;
+  }
+}
